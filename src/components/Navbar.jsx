@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav style={styles.nav}>
-      <div style={styles.logo}>The Young Vettavalam Voice</div>
+      <div style={styles.logo}>The Young Voices Of Vettavalam</div>
       <div style={styles.links}>
         <Link to="/" style={styles.link}>Home</Link>
         <Link to="/happenings" style={styles.link}>What's Happening</Link>

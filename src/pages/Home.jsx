@@ -3,14 +3,14 @@ function Home() {
     <div style={styles.container}>
       <div style={styles.overlay}>
         <h1 style={styles.heading}>
-          Welcome to <span style={{ color: "#f1c40f" }}>The Young Vettavalam Voice</span>
+          Welcome to <span style={{ color: "#f1c40f" }}>The Young Voices Of Vettavalam</span>
         </h1>
         <p style={styles.subheading}>
           Your voice matters. Report issues, share news, and stay connected with your community.
         </p>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <button style={styles.button} onClick={() => window.location.href = "/complaint"}>
-            Report a Complaint
+            Raise Your Voice
           </button>
         </div>
       </div>
